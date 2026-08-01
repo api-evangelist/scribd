@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://rubygems.org/gems/rscribd
+description: >-
+  First-party Scribd client libraries. Scribd's public "Platform" API is legacy:
+  the official Ruby client (rscribd) is published on RubyGems and its GitHub
+  repository (scribd/rscribd) was archived read-only on 2026-10-24 (Oct 24,
+  2019). Scribd no longer accepts new API accounts and the SlideShare developer
+  portal (developers.slideshare.net) now 301-redirects to the marketing site, so
+  no new SDKs are being shipped. Registry status recorded at fetch time.
+packages:
+  - language: ruby
+    registry: rubygems
+    name: rscribd
+    url: https://rubygems.org/gems/rscribd
+    source: https://github.com/scribd/rscribd
+    install: gem install rscribd
+    official: true
+    status: archived
+    note: >-
+      The official Ruby gem for the Scribd API ("The official Ruby gem for the
+      Scribd API" per RubyGems). Latest 1.3.1; ~339k downloads. Repository
+      archived 2019; API accepts no new accounts.

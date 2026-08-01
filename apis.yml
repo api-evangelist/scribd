@@ -1,8 +1,31 @@
 aid: scribd
 name: Scribd
-description: Scribd is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Scribd Inc. is an American digital-content media company founded in 2007 by
+  Trip Adler, Jared Friedman and Tikhon Bernstam and headquartered in San
+  Francisco, California. It operates four consumer platforms: Scribd (a
+  document-sharing library), Everand (a subscription service for ebooks,
+  audiobooks, magazines, podcasts and sheet music, formerly the flagship Scribd
+  subscription), SlideShare (presentation hosting) and Fable (a social reading
+  app). Scribd was an early Y Combinator company. Its historical public
+  "Platform" API for uploading, converting and displaying documents is now
+  legacy — the official Ruby client (scribd/rscribd) was archived in 2019,
+  Scribd no longer accepts new API accounts, and the SlideShare developer portal
+  has been retired — so this profile documents the company's identity and the
+  remaining first-party developer artifacts rather than a live API surface.
 url: https://raw.githubusercontent.com/api-evangelist/scribd/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://logo.clearbit.com/scribd.com
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,52 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Documents
+- eBooks
+- Audiobooks
+- Publishing
+- Content
+- Subscription
+- Media
+- Reading
 apis: []
+common:
+- type: DomainSecurity
+  url: security/scribd-domain-security.yml
+- type: Website
+  url: https://www.scribd.com
+- type: DeveloperPortal
+  url: https://www.scribd.com/developers/platform/api
+- type: Documentation
+  url: https://www.scribd.com/developers/platform/api
+- type: Support
+  url: https://support.scribd.com/hc/en-us
+- type: Blog
+  url: https://blog.scribd.com
+- type: GitHubOrganization
+  url: https://github.com/scribd
+- type: Pricing
+  url: https://www.scribd.com/subscribe
+- type: Login
+  url: https://www.scribd.com/login
+- type: TermsOfService
+  url: https://www.scribd.com/terms
+- type: PrivacyPolicy
+  url: https://www.scribd.com/privacy
+- type: Packages
+  url: packages/scribd-packages.yml
+- type: SDKs
+  url: packages/scribd-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
