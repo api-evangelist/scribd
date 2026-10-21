@@ -29,16 +29,44 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-official-clis.py
   first_seen: '2026-10-20'
+- partner_name: Book Industry Study Group (BISG)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.bisg.org/member-directory/scribd
+  category: book industry standards body membership
+  contract_reference:
+    register: BISG member directory (bisg.org/member-directory/)
+    standard: BISG book-supply-chain standards (ONIX for Books US guidance, BISAC subject codes)
+    spec_file: null
+    role: bisg-member
+    registered_name: Scribd
+    register_country: null
+    register_id: https://www.bisg.org/member-directory/scribd
+    matched_domain: scribd.com
+    matched_by: domain
+    signal_note: 'participation only: an organisation listing in the BISG member directory; names only (identity
+      bridged); listing is not ONIX conformance'
+    detected_by: sweep-book-publishing-onix.py
+    detected: '2026-10-20'
+    member_type: Commercial Business
+    identity: wikidata Q1467888 'Scribd' P856 https://www.scribd.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-book-publishing-onix.py
+  first_seen: '2026-10-20'
 generated: '2026-10-20'
 method: searched
 source:
-- https://cdn.winget.microsoft.com/cache
-- https://formulae.brew.sh/api/cask.json
 - https://formulae.brew.sh/api/formula.json
-- https://github.com/ScoopInstaller/Extras
+- https://formulae.brew.sh/api/cask.json
+- https://cdn.winget.microsoft.com/cache
 - https://github.com/ScoopInstaller/Main
-- https://pypi.org/pypi
+- https://github.com/ScoopInstaller/Extras
 - https://registry.npmjs.org
+- https://pypi.org/pypi
 checked:
 - https://cdn.winget.microsoft.com/cache
 - https://formulae.brew.sh/api/cask.json
@@ -47,3 +75,8 @@ checked:
 - https://github.com/ScoopInstaller/Main
 - https://pypi.org/pypi
 - https://registry.npmjs.org
+- https://members.edrlab.org/
+- https://www.bisg.org/member-directory/
+- https://www.editeur.org/8/EDItEUR-Members/
+- https://www.edrlab.org/readium-lcp/certified-apps-servers/
+- https://www.isbn-international.org/agencies
